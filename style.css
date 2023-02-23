@@ -1,0 +1,109 @@
+body {
+    padding: 0;
+    margin: 0 auto;
+    background: #3271bd;
+    background: -webkit-linear-gradient(-45deg, #20745f 0%, rgba(32, 116, 95, 0) 70%), -webkit-linear-gradient(-315deg, #81b0df 10%, rgba(129, 176, 223, 0) 80%), -webkit-linear-gradient(-225deg, #3271bd 10%, rgba(50, 113, 189, 0) 80%), -webkit-linear-gradient(-135deg, #375268 100%, rgba(55, 82, 104, 0) 70%);
+    background: linear-gradient(45deg, #20745f 0%, rgba(32, 116, 95, 0) 70%), linear-gradient(135deg, #81b0df 10%, rgba(129, 176, 223, 0) 80%), linear-gradient(225deg, #3271bd 10%, rgba(50, 113, 189, 0) 80%), linear-gradient(315deg, #375268 100%, rgba(55, 82, 104, 0) 70%);
+}
+
+.container {
+    width: 100%;
+    height: 97.89vh;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cards {
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 2px rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    gap: 10px;
+}
+
+#search {
+    width: 1120px;
+    padding: 10px;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 2px rgba(255, 255, 255, 0.5);
+    color: white;
+    font-size: 20px;
+}
+
+#search:focus {
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 2px rgba(255, 255, 255, 0.5);
+}
+
+::placeholder {
+    color: white;
+    opacity: 1;
+    padding: 10px;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    gap: 20px;
+}
+
+.today_weather {
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.today_weather h1 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.week_weather {
+    width: 830px;
+    height: 250px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+}
+
+.temp_map,
+.wind,
+.wet,
+.precipitation {
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    gap: 20px;
+}
